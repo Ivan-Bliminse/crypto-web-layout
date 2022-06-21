@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import crypto from './crypto.png'
 
-let bitcoin = new WebSocket('wss://stream.binance.com:9443/ws/btcusdt@trade')
-let ethereum = new WebSocket('wss://stream.binance.com:9443/ws/ethusdt@trade')
-let solana = new WebSocket('wss://stream.binance.com:9443/ws/solusdt@trade')
+const bitcoin = new WebSocket('wss://stream.binance.com:9443/ws/btcusdt@trade')
+const ethereum = new WebSocket('wss://stream.binance.com:9443/ws/ethusdt@trade')
+const solana = new WebSocket('wss://stream.binance.com:9443/ws/solusdt@trade')
 
 
 
