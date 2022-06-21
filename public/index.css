@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Fascinate&family=Handlee&family=Oleo+Script:wght@400;700&family=Orbitron&family=Spline+Sans+Mono&family=Tapestry&family=Updock&family=Water+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Expletus+Sans:ital@1&family=Handlee&family=Oleo+Script:wght@400;700&family=Orbitron&family=Spline+Sans+Mono&family=Tapestry&family=Updock&family=Water+Brush&display=swap");
+
+body {
+  background: linear-gradient(0deg, rgb(86, 53, 126) 0%, rgb(7, 7, 88) 100%);
+  background-attachment: fixed;
+  user-select: none;
+}
+
+span {
+  display: inline-block;
+  font-family: Expletus Sans;
+  margin-left: 3px;
+}
+.header {
+  margin-left: -500px;
+  color: white;
+}
+.header > div {
+  display: inline-block;
+  margin-right: 60px;
+  margin-top: -20px;
+  padding: 10px;
+  border-radius: 15%;
+  font-family: Expletus Sans;
+  font-size: 16px;
+}
+
+.header > div:hover {
+  background-color: rgb(135, 100, 190);
+  cursor: pointer;
+}
+
+.header > div:active {
+  background-color: rgb(99, 69, 146);
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+  color: white;
+}
+
+.App img {
+  width: 800px;
+  margin-top: -650px;
+  margin-right: -800px;
+}
+
+.App .logo {
+  width: 5%;
+  margin-top: 30px;
+  margin-left: -2200px;
+}
+
+.text {
+  margin-top: 200px;
+  margin-left: -1000px;
+  font-family: Fascinate;
+  font-size: 50px;
+}
+
+.crypto {
+  color: rgb(255, 196, 0);
+}
+
+.coins {
+  margin-left: 800px;
+  margin-top: -80px;
+}
+
+.coins img {
+  width: 25%;
+  margin: -6px;
+}
+
+.btc,
+.etc,
+.sol {
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 15%;
+  padding-left: -40px;
+  width: 100px;
+  height: 40px;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.motivate p {
+  margin-left: -1000px;
+  font-family: Expletus Sans;
+}
+
+button {
+  background-color: #e4bf19;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: -1000px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button:active {
+  background-color: #bea327;
+}
